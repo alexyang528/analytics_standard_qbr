@@ -1,0 +1,27 @@
+{
+    "$id": "qbr_Response_Rate_and_Average_Response_Time",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Response Rate and Average Response Time ",
+    "description": "Response Rate and Response Time (Hours) by Ratings",
+    "query": {
+        "metrics": [
+            "yext/REVIEW_RESPONSE_RATE",
+            "yext/REVIEW_RESPONSE_TIME"
+        ],
+        "dimensions": [
+            "yext/RATINGS"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            }
+        ]
+    },
+    "display": {
+        "bar": {
+            "horizontal": true,
+            "showLabels": true
+        }
+    }
+}

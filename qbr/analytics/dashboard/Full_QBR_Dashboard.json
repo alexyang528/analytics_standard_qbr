@@ -1,0 +1,179 @@
+{
+    "$id": "qbr_Full_QBR_Dashboard",
+    "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+    "name": "Full QBR Dashboard",
+    "insights": [
+        {
+            "insight": "TOTAL-LISTINGS-IMPRESSIONS-TABLE",
+            "caption": "Having correct and robust listings information across the Yext Knowledge Network leads to increased confidence for both publishers to display your business and for customers to choose you. While major Search Engines like Google command a majority share of network impressions, performance across these Publishers is directly related to the consistency and recency of your data across the Yext Knowledge Network.",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "LOCATION-UPDATES",
+            "caption": "Constant data updates across the Yext network alongside ongoing cleanup of duplicates helps you optimize for better search performance across major Search Engines.",
+            "x": 2,
+            "y": 0,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "TOTAL-LISTINGS-CLICKS-TABLE",
+            "caption": "Consumers are constantly interacting with your brand across third-party Publishers. Yext Analytics illuminates the high intent local actions that are taking place across these off-website publishers so you can better understand how many potential online or offline conversions are driven through this new channel for engagement.",
+            "x": 0,
+            "y": 1,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "TOTAL-LISTINGS-IMPRESSIONS-GRAPH",
+            "x": 2,
+            "y": 1,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "LISTINGS-OVERVIEW",
+            "caption": "Incorrect listings create a frustrating experience and hurt your search ranking - ensure your Listings are live to maximize data consistency and boost performance. Visit the Listings screen to learn how to Fix Your Data.",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "TOTAL-LISTINGS-CLICKS-GRAPH",
+            "x": 2,
+            "y": 2,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "PAGES-OVERVIEW",
+            "caption": "Consistent, fast-loading, properly marked-up pages improve your listings presence across AI- driven discovery services like search, maps, and voice assistants. Seamlessly integrated with the Yext Knowledge Graph, Yext Pages allows your marketings teams to be in control with easy to create and maintain landing pages that efficiently scale and drive brand discoverability and customer acquisition.",
+            "x": 0,
+            "y": 3,
+            "width": 2,
+            "height": 2
+        },
+        {
+            "insight": "qbr_Page_Views_YoY",
+            "x": 2,
+            "y": 3,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "qbr_Google_Search_Impressions",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "PAGE-BRANDED-TERMS",
+            "caption": "Branded search terms include your brand\u0027s name and indicate a user\u0027s active intent to find you.",
+            "x": 2,
+            "y": 4,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "PAGE-UNBRANDED-TERMS",
+            "caption": "Unbranded search terms do not mention your brand specifically and indicate an element of discoverability in search.",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "REVIEWS-MAP",
+            "caption": "Customers are your most important source of feedback. Their reviews impact how search engines and other customers make decisions everyday--including where and when to display your entities. Responding to reviews helps businesses increase their ratings and the likelihood for consumers to engage online.",
+            "x": 0,
+            "y": 5,
+            "width": 6,
+            "height": 2
+        },
+        {
+            "insight": "REVIEW-DISTRIBUTION-OVER-TIME",
+            "x": 0,
+            "y": 7,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "qbr_Response_Rate_and_Average_Response_Time",
+            "caption": "Response rate should be as high as possible and response time should be as low as possible. Prioritizing poor reviews (especially those with content) is crucial to maintaining a robust customer base.",
+            "x": 4,
+            "y": 7,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "qbr_Reviews_Distribution",
+            "x": 0,
+            "y": 8,
+            "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "qbr_Reviews_Volume_YoY",
+            "x": 2,
+            "y": 8,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "qbr_Answers_Searches_and_Clicks",
+            "caption": "Crucial metrics for an Answers experience include the number of searches and clicks received monthly. Track these data points over time to understand and ensure user engagement on their search experiences.",
+            "x": 0,
+            "y": 9,
+            "width": 3,
+            "height": 2
+        },
+        {
+            "insight": "qbr_Top_Search_Terms",
+            "x": 3,
+            "y": 9,
+            "width": 3,
+            "height": 2
+        },
+        {
+            "insight": "qbr_Top_Clicked_Entities",
+            "x": 0,
+            "y": 11,
+            "width": 3,
+            "height": 2
+        },
+        {
+            "insight": "qbr_Clicks_by_Entity_Type",
+            "x": 3,
+            "y": 11,
+            "width": 3,
+            "height": 2
+        },
+        {
+            "insight": "qbr_Cost_Savings_Search_Terms",
+            "caption": "Cost Savings search terms refer to any query that prevents a support call or other costs that could be avoided by answering a question online.",
+            "x": 0,
+            "y": 13,
+            "width": 3,
+            "height": 1
+        },
+        {
+            "insight": "qbr_Revenue_Generating_Search_Terms",
+            "caption": "Revenue Generating search terms refer to any query that drives revenue to your company by streamlining the path to conversion.",
+            "x": 3,
+            "y": 13,
+            "width": 3,
+            "height": 1
+        }
+    ],
+    "filters": [
+        {
+            "filter": "yext/date",
+            "in": "WEEKS_12"
+        }
+    ]
+}

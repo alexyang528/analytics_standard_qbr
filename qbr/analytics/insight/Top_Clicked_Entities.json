@@ -1,0 +1,49 @@
+{
+    "$id": "qbr_Top_Clicked_Entities",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Top Clicked Entities",
+    "description": "The Most Clicked Entities in your Answers Experiences",
+    "query": {
+        "metrics": [
+            "yext/CLICKS"
+        ],
+        "dimensions": [
+            "yext/ENTITIES"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            },
+            {
+                "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+                "in": [
+                    "EXTERNAL"
+                ]
+            },
+            {
+                "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+                "in": [
+                    "PRODUCTION"
+                ]
+            },
+            {
+                "filter": "yext/PRODUCT",
+                "in": [
+                    "ANSWERS"
+                ]
+            }
+        ]
+    },
+    "display": {
+        "table": {
+            "showSummary": false,
+            "sort": {
+                "column": {
+                    "metric": "yext/CLICKS"
+                },
+                "descending": true
+            }
+        }
+    }
+}

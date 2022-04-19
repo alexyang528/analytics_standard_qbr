@@ -1,0 +1,23 @@
+{
+    "$id": "qbr_Reviews_Distribution",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Reviews Distribution",
+    "description": "Pie Chart of Reviews by Ratings",
+    "query": {
+        "metrics": [
+            "yext/NEW_REVIEWS"
+        ],
+        "dimensions": [
+            "yext/RATINGS"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "DAYS_90"
+            }
+        ]
+    },
+    "display": {
+        "pie": {}
+    }
+}

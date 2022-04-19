@@ -1,0 +1,61 @@
+{
+    "$id": "qbr_Revenue_Generating_Search_Terms",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Revenue Generating Search Terms",
+    "description": "Searches, Clicks, and Conversion Value by Search Term",
+    "query": {
+        "metrics": [
+            "yext/CONVERSION_SEARCHES",
+            "yext/CLICKS",
+            "yext/CONVERSION_VALUE"
+        ],
+        "dimensions": [
+            "yext/SEARCH_TERM"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            },
+            {
+                "filter": "yext/CONFIGURATION_TYPE",
+                "in": [
+                    "LEAD",
+                    "PURCHASE",
+                    "PAGE_VIEW",
+                    "PURCHASE",
+                    "SIGN_UP"
+                ]
+            },
+            {
+                "filter": "yext/TRAFFIC_SOURCE",
+                "in": [
+                    "EXTERNAL"
+                ]
+            },
+            {
+                "filter": "yext/CONFIGURATION_VERSION_LABEL",
+                "in": [
+                    "PRODUCTION"
+                ]
+            },
+            {
+                "filter": "yext/PRODUCT",
+                "in": [
+                    "ANSWERS"
+                ]
+            }
+        ]
+    },
+    "display": {
+        "table": {
+            "showSummary": false,
+            "sort": {
+                "column": {
+                    "metric": "yext/CLICKS"
+                },
+                "descending": true
+            }
+        }
+    }
+}

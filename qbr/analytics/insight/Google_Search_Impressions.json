@@ -1,0 +1,23 @@
+{
+    "$id": "qbr_Google_Search_Impressions",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Google Search Impressions",
+    "description": "Google Search Impressions by Google Search Console Query Type",
+    "query": {
+        "metrics": [
+            "yext/GSC_IMPRESSIONS"
+        ],
+        "dimensions": [
+            "yext/GSC_QUERY_TYPE"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "DAYS_90"
+            }
+        ]
+    },
+    "display": {
+        "pie": {}
+    }
+}

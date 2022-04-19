@@ -1,0 +1,45 @@
+{
+    "$id": "qbr_Top_Search_Terms",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Top Search Terms",
+    "description": "Answers Sessions, Answers Searches, and Answers Clicks by Search Term (Normalized)",
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SESSIONS",
+            "yext/ANSWERS_SEARCHES",
+            "yext/ANSWERS_CLICKS"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_SEARCH_TERM"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            },
+            {
+                "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+                "in": [
+                    "PRODUCTION"
+                ]
+            },
+            {
+                "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+                "in": [
+                    "EXTERNAL"
+                ]
+            }
+        ]
+    },
+    "display": {
+        "table": {
+            "showSummary": true,
+            "sort": {
+                "column": {
+                    "metric": "yext/ANSWERS_SESSIONS"
+                },
+                "descending": true
+            }
+        }
+    }
+}

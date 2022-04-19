@@ -34,7 +34,7 @@
             "showSummary": false,
             "sort": {
                 "column": {
-                    "metric": "yext/CLICKS"
+                    "metric": "yext/ANSWERS_CLICKS"
                 },
                 "descending": true
             }

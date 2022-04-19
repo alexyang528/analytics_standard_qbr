@@ -5,7 +5,7 @@
     "description": "Total Clicks by Entity Type; 'No Entity Type' corresponds to non-KG verticals",
     "query": {
         "metrics": [
-            "yext/CLICKS"
+            "yext/ANSWERS_CLICKS"
         ],
         "dimensions": [
             "yext/ENTITY_TYPES"

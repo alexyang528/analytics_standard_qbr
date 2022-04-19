@@ -1,5 +1,5 @@
 {
-    "$id": "qbr_Clicks_by_Entity_Type",
+    "$id": "qbr_Clicks_by_Answers_Vertical",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Clicks by Entity Type",
     "description": "Total Clicks by Entity Type; 'No Entity Type' corresponds to non-KG verticals",
@@ -8,7 +8,7 @@
             "yext/ANSWERS_CLICKS"
         ],
         "dimensions": [
-            "yext/ENTITY_TYPES"
+            "yext/ANSWERS_VERTICAL_RETURNED"
         ],
         "filters": [
             {
@@ -25,12 +25,6 @@
                 "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
                 "in": [
                     "PRODUCTION"
-                ]
-            },
-            {
-                "filter": "yext/PRODUCT",
-                "in": [
-                    "ANSWERS"
                 ]
             }
         ]

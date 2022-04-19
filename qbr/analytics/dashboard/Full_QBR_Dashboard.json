@@ -133,21 +133,22 @@
             "height": 2
         },
         {
-            "insight": "qbr_Top_Search_Terms",
+            "insight": "qbr_Clicks_by_Answers_Vertical",
+            "caption": "Viewing the total number of Answers clicks broken out Vertical can help you understand what type of content users are most often engaging with in your Answers experiences.",
             "x": 3,
             "y": 9,
             "width": 3,
             "height": 2
         },
         {
-            "insight": "qbr_Top_Clicked_Entities",
+            "insight": "qbr_Top_Search_Terms",
             "x": 0,
             "y": 11,
             "width": 3,
             "height": 2
         },
         {
-            "insight": "qbr_Clicks_by_Answers_Vertical",
+            "insight": "qbr_Top_Clicked_Entities",
             "x": 3,
             "y": 11,
             "width": 3,

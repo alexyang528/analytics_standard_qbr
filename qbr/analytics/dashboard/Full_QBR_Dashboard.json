@@ -152,22 +152,6 @@
             "y": 11,
             "width": 3,
             "height": 2
-        },
-        {
-            "insight": "qbr_Cost_Savings_Search_Terms",
-            "caption": "Cost Savings search terms refer to any query that prevents a support call or other costs that could be avoided by answering a question online.",
-            "x": 0,
-            "y": 13,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "qbr_Revenue_Generating_Search_Terms",
-            "caption": "Revenue Generating search terms refer to any query that drives revenue to your company by streamlining the path to conversion.",
-            "x": 3,
-            "y": 13,
-            "width": 3,
-            "height": 1
         }
     ],
     "filters": [
